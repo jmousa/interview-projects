@@ -1,0 +1,17 @@
+
+this file will be used as input to the mini-grep program
+it will be passed from the command line along with a regular
+expression to search for that expression
+
+so for example
+If I type the following at the command line
+
+python mini-grep  -e PATTERN [FILE...]
+
+then the it will search the file for PATTERN
+
+let us add some things to search for
+
+Hi My name is joe and I like scuba diving
+Hi my name is bill and I like playing tennis
+Hi my name is stacy adn I like swimming
